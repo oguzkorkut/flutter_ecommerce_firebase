@@ -23,7 +23,7 @@ class CustomInput extends StatelessWidget {
         child: TextField (
           decoration: InputDecoration(
               border: InputBorder.none,
-              hintText: ,
+              hintText: hintText,
             contentPadding: EdgeInsets.symmetric(
               horizontal: 24.0,
               vertical: 8.0,

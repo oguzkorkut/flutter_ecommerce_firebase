@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_ecommerce_firebase/constants.dart';
+
 import 'package:flutter_ecommerce_firebase/widgets/custom_btn.dart';
 import 'package:flutter_ecommerce_firebase/widgets/custom_input.dart';
 
@@ -33,7 +34,7 @@ class _LoginPageState extends State<LoginPage> {
               Column(
                 children: [
                   CustomInput(hintText: 'Email'),
-                  CustomInput(hintText: 'Email'),
+                  CustomInput(hintText: 'Password'),
                   CustomBtn(
                       text: 'Login',
                       onPressed: () {
@@ -50,7 +51,7 @@ class _LoginPageState extends State<LoginPage> {
                 child: CustomBtn(
                   text: 'Create New Account',
                   onPressed: () {
-
+                   // Navigator.push(context, MaterialPageRoute(builder: (context) => RegisterPage()));
                   },
                   outlineBtn: true,
                 ),
